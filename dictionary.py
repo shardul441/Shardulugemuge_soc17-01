@@ -1,22 +1,24 @@
+# Create Dictionary
 student = {
-"roll_no": 101,
-"name": "Amit",
-"marks": 85
+    "roll_no": 101,
+    "name": "Amit",
+    "marks": 85
 }
 
+print("1. Original Dictionary")
 print("Dictionary:", student)
 print("Name:", student["name"])
 print("Marks:", student.get("marks"))
 print()
 
-2. Update Dictionary
+# Update Dictionary
 print("2. Update Dictionary")
 student["marks"] = 90
 student["grade"] = "A"
 print("Updated Dictionary:", student)
 print()
 
-3. Removing Elements
+# Removing Elements
 print("3. Removing Elements")
 removed_value = student.pop("grade")
 print("Removed Value:", removed_value)
@@ -26,7 +28,7 @@ student.popitem()
 print("After popitem():", student)
 print()
 
-4. Merging Dictionaries
+# Merging Dictionaries
 print("4. Merging Dictionaries")
 dict1 = {"a": 1, "b": 2}
 dict2 = {"c": 3, "d": 4}
